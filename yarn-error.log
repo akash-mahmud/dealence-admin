@@ -1,0 +1,59 @@
+Arguments: 
+  C:\node.exe C:\Users\Akash\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @babel/transform-runtime @babel/preset-env @babel/preset-react @babel/register
+
+PATH: 
+  E:\Scripts\;E:\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;E:\Program Files\PuTTY\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\dotnet\;C:\;C:\Program Files\CMake\bin;C:\Users\Akash\AppData\Local\Microsoft\WindowsApps;C:\Users\Akash\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Akash\.dotnet\tools;C:\Users\Akash\AppData\Roaming\npm;C:\Program Files\heroku\bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.14.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@babel%2ftransform-runtime: Not found
+      at Request.params.callback [as _callback] (C:\Users\Akash\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:67029:18)
+      at Request.self.callback (C:\Users\Akash\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140883:22)
+      at Request.emit (node:events:520:28)
+      at Request.<anonymous> (C:\Users\Akash\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141855:10)
+      at Request.emit (node:events:520:28)
+      at IncomingMessage.<anonymous> (C:\Users\Akash\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141777:12)
+      at Object.onceWrapper (node:events:639:28)
+      at IncomingMessage.emit (node:events:532:35)
+      at endReadableNT (node:internal/streams/readable:1346:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "employeepanel_dealence",
+  
+    "version": "1.0.0",
+    "description": "Employee Panel App",
+    "main": "server.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start":"nodemon server.js"
+    },
+    "author": "Akash Mahmud",
+    "license": "ISC",
+    "dependencies": {
+      "body-parser": "^1.20.0",
+      "cors": "^2.8.5",
+      "dotenv": "^16.0.0",
+      "express": "^4.18.1",
+      "morgan": "^1.10.0",
+      "nodemailer": "^6.7.4",
+      "pg": "^8.7.3",
+      "pg-hstore": "^2.3.4",
+      "sequelize": "^6.19.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
